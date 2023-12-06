@@ -5,7 +5,7 @@ export const FeedbackCountersList = styled.ul`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: ${props => props.theme.spacing(8)};
+  gap: ${props => props.theme.spacing(6)};
 `;
 
 export const FeedbackCountersItem = styled.li`

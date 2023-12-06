@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const SectionWrapper = styled.section`
-  width: 50%;
-  margin: 50px auto;
+  width: 60%;
+  margin: 40px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,7 @@ export const SectionWrapper = styled.section`
 `;
 
 export const SectionTitle = styled.h2`
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   text-align: center;
   font-size: ${props => props.theme.fontSizes.extraLarge};
   font-weight: ${props => props.theme.fontWeights.extraBold};
